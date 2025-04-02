@@ -1,0 +1,36 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#Download {
+  background: #00356B;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#Download .btn {
+  color: white; /* Set text color to white */
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+#Download a.btn:hover {
+  background-color: rgba(255, 255, 255, 0.384); /* Change background color to white when hovered */
+}
+
+footer {
+  background: url(../img/smartphones.png), #f1f1f1;
+}
