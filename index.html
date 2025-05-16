@@ -67,15 +67,34 @@
     </div>
   </section>
 
-  <section id="Features">
+  <!-- Multimarker section: image left, text right -->
+  <section id="Multimarker">
     <div class="container">
-      <div class="row mt-5">
+      <div class="row mt-5 align-items-center">
+        <!-- Image on the left -->
         <div class="col-md-6">
           <div class="info-left">
-            <img src="img/image2.png" style="width: 100%">
+            <img src="img/multimarker.png" alt="Multimarker" style="width: 100%;">
           </div>
         </div>
-        <div class="col-md-6 my-auto">
+        <!-- Text on the right -->
+        <div class="col-md-6">
+          <div class="info-right">
+            <h2>Rank markers from complex datasets</h2>
+            <p>SCRIBE allows users to upload multiple datasets and rank the markers based on the length of the range
+              that is significantly associated with survival.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section: text left, image right -->
+  <section id="Features">
+    <div class="container">
+      <div class="row mt-5 align-items-center">
+        <!-- Text on the left -->
+        <div class="col-md-6">
           <div class="info-right">
             <h2>Identify the optimal survival cut-point for multiple datasets</h2>
             <p>SCRIBE allows users to upload multiple datasets to identify common cut-points. SCRIBE creates a
@@ -85,90 +104,110 @@
               percentiles.</p>
           </div>
         </div>
+        <!-- Image on the right -->
+        <div class="col-md-6">
+          <div class="info-left">
+            <img src="img/image2.png" alt="Feature image" style="width: 100%;">
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- Survival section: image left, text right -->
   <section id="Survival">
     <div class="container">
-      <div class="row mt-5">
-        <div class="col-md-6 my-auto">
+      <div class="row mt-5 align-items-center">
+        <!-- Image on the left -->
+        <div class="col-md-6">
           <div class="info-left">
+            <img src="img/image3.png" alt="Survival plot" style="width: 100%;">
+          </div>
+        </div>
+        <!-- Text on the right -->
+        <div class="col-md-6">
+          <div class="info-right">
             <h2>Generate survival plots!</h2>
             <p>Once the users have identified the optimal cut-point, they can click on it and SCRIBE automatically
               generates ready to publish Kaplan-Meier Survival Plots for all the datasets.</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="info-right">
-            <img src="img/image3.png" style="width: 100%">
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
+  <!-- Correlation section: text left, image right -->
   <section id="Correlation">
     <div class="container">
-      <div class="row mt-5">
+      <div class="row mt-5 align-items-center">
+        <!-- Text on the left -->
         <div class="col-md-6">
-          <div class="info-left">
-            <img src="img/image6.png" style="width: 100%">
-          </div>
-        </div>
-        <div class="col-md-6 my-auto">
           <div class="info-right">
             <h2>Compare associations between markers!</h2>
-            <p>SCRIBE users can quickly generate marker correlation plots! </p>
+            <p>SCRIBE users can quickly generate marker correlation plots!</p>
+          </div>
+        </div>
+        <!-- Image on the right -->
+        <div class="col-md-6">
+          <div class="info-left">
+            <img src="img/image6.png" alt="Correlation plot" style="width: 100%;">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Bar Graphs section: image left, text right -->
   <section id="Bar-Graphs">
     <div class="container">
-      <div class="row mt-5">
-        <div class="col-md-6 my-auto">
+      <div class="row mt-5 align-items-center">
+        <!-- Image on the left -->
+        <div class="col-md-6">
           <div class="info-left">
+            <img src="img/image4.png" alt="Bar plots" style="width: 100%;">
+          </div>
+        </div>
+        <!-- Text on the right -->
+        <div class="col-md-6">
+          <div class="info-right">
             <h2>Create Bar plots</h2>
-            <p> Additionally, SCRIBE can create Bar Plots to compare different markers between each other or the
+            <p>Additionally, SCRIBE can create Bar Plots to compare different markers between each other or the
               same marker within different categories.</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="info-right">
-            <img src="img/image4.png" style="width: 100%">
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
+  <!-- Contingency Table section: text left, image right -->
   <section id="Contingency-Table">
     <div class="container">
-      <div class="row mt-5">
+      <div class="row mt-5 align-items-center">
+        <!-- Text on the left -->
         <div class="col-md-6">
-          <div class="info-left">
-            <img src="img/image5.png" style="width: 100%">
-          </div>
-        </div>
-        <div class="col-md-6 my-auto">
           <div class="info-right">
             <h2>Even Contingency Tables</h2>
             <p>Lastly, if you are tired of counting how many patients are within one specific group, SCRIBE can do
-              it for you. Users can select the markers that the want to study and the categories of interest; then EasyR
-              Plots generates a Contingency Table with the number of patients in each group splitted by the median value
+              it for you. Users can select the markers that they want to study and the categories of interest; then
+              SCRIBE
+              generates a Contingency Table with the number of patients in each group split by the median value
               of the markers of interest.</p>
+          </div>
+        </div>
+        <!-- Image on the right -->
+        <div class="col-md-6">
+          <div class="info-left">
+            <img src="img/image5.png" alt="Contingency table" style="width: 100%;">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+
   <section id="Download">
     <div class="container">
-      <a href="https://drive.usercontent.google.com/download?id=1lpcziEX5BqwJjz5gE5U6VaWOwC2J7Z6I&export=download&authuser=0"
+      <a href="https://drive.google.com/file/d/1SyNA6wR77RtK1RMqv-RYiend0vk6x5X7/view?usp=drive_link"
         class="btn btn-outline-secondary btn-lg" download>Download now!</a>
     </div>
   </section>
